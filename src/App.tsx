@@ -1,9 +1,10 @@
 import React from 'react';
-import './styles/wishlist.css';
+import Wishlist from './pages/Wishlist';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <Wishlist></Wishlist>
     </div>
   );
 }

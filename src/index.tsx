@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Wishlist from './Wishlist';
-
+import App from './App';
+import './styles/app.scss';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Wishlist />
+    <App />
   </React.StrictMode>
 );
