@@ -1,0 +1,207 @@
+{
+  "movie": [
+    {
+      "id": 1,
+      "title": "Spiderhead",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR",
+      "isNew": true
+    },
+    {
+      "id": 2,
+      "title": "Top Gun",
+      "cover": "movie-cover-2.jpg",
+      "categories": ["Comedy"],
+      "bestQuality": "HD",
+      "isNew": true
+    },
+    {
+      "id": 3,
+      "title": "Star wars Episode IX : L'ascension de Skywalker",
+      "cover": "movie-cover-3.jpg",
+      "categories": ["Comedy"],
+      "bestQuality": "4K HDR",
+      "isNew": true
+    },
+    {
+      "id": 4,
+      "title": "The contractor",
+      "cover": "movie-cover-4.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR",
+      "isNew": true
+    },
+    {
+      "id": 5,
+      "title": "Uncharted",
+      "cover": "movie-cover-2.jpg",
+      "categories": ["Comedy"],
+      "bestQuality": "HDR"
+    },
+    {
+      "id": 6,
+      "title": "Umbrella Academy",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "HD"
+    },
+    {
+      "id": 7,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-3.jpg",
+      "categories": ["Comedy"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 8,
+      "title": "Top Gun",
+      "cover": "movie-cover-4.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "HD",
+      "isNew": true
+    },
+    {
+      "id": 9,
+      "title": "Star wars Episode IX : L'ascension de Skywalker",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR",
+      "isNew": true
+    },
+    {
+      "id": 10,
+      "title": "The contractor",
+      "cover": "movie-cover-3.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "Dolby",
+      "isNew": true
+    },
+    {
+      "id": 11,
+      "title": "Uncharted",
+      "cover": "movie-cover-2.jpg",
+      "categories": ["Comedy"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 12,
+      "title": "Umbrella Academy",
+      "cover": "movie-cover-4.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 13,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 14,
+      "title": "Uncharted",
+      "cover": "movie-cover-2.jpg",
+      "categories": ["Comedy"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 15,
+      "title": "Umbrella Academy",
+      "cover": "movie-cover-4.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 16,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 17,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 18,
+      "title": "Uncharted",
+      "cover": "movie-cover-2.jpg",
+      "categories": ["Comedy"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 19,
+      "title": "Umbrella Academy",
+      "cover": "movie-cover-4.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 20,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 21,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 22,
+      "title": "Uncharted",
+      "cover": "movie-cover-2.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 23,
+      "title": "Umbrella Academy",
+      "cover": "movie-cover-4.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 24,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 25,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 26,
+      "title": "Uncharted",
+      "cover": "movie-cover-2.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 27,
+      "title": "Umbrella Academy",
+      "cover": "movie-cover-4.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    },
+    {
+      "id": 28,
+      "title": "S4: Stranger Things",
+      "cover": "movie-cover-1.jpg",
+      "categories": ["Horror"],
+      "bestQuality": "4K HDR"
+    }
+  ]
+}
