@@ -1,0 +1,60 @@
+.wishlist {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    padding: 1.5em;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5em;
+    }
+
+    .header__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header__title {
+        margin: 0;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .header__actions-container {
+        display: flex;
+        column-gap: 0.75em;
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            padding: 0.675em 0.75em;
+            background: var(--surfaces-alpha-main);
+            border-top: 1px solid var(--surfaces-alpha-border);
+            border-radius: 6px;
+        }
+
+        .search-bar__input {
+            all: unset;
+            max-width: 172px;
+            font-family: 'Inter';
+        }
+
+        .header__toggle-view {
+            display: flex;
+
+            .button__icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .header__categories {
+        display: flex;
+        gap: 0.5em;
+        height: 2em;
+    }
+}

@@ -1,0 +1,85 @@
+.button {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: unset;
+
+    &.primary {
+        padding: 0 1em;
+        background: var(--primary-main);
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+        border-radius: 6px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        cursor: pointer;
+
+        .button__label {
+            color: var(--texts-over-image);
+        }
+    }
+
+    &.toggle {
+        padding: 0 0.75em;
+        background: var(--surfaces-alpha-main);
+        border-top: 1px solid var(--surfaces-alpha-border);
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background: var(--surfaces-alpha-hover);
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:first-of-type {
+            border-radius: 6px 0px 0px 6px;
+        }
+
+        &:last-of-type {
+            border-radius: 0px 6px 6px 0px;
+        }
+
+        &.active {
+            border: 1.5px solid var(--dark-surfaces-alpha-main);
+            opacity: 0.4;
+            background: var(--surfaces-alpha-main);
+            transition: none;
+
+            &:hover {
+                transition: none;
+            }
+        }
+    }
+
+    &.filter {
+        display: flex;
+        align-items: center;
+        padding: 0 0.75em;
+        color: var(--white);
+        background: none;
+        border-radius: 6px;
+        border: 1px solid var(--surfaces-alpha-border);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        column-gap: 2px;
+
+        &:hover {
+            background: var(--surfaces-alpha-border);
+            transition: all 0.3s ease-in-out;
+        }
+
+        &.active {
+            background: var(--primary-main);
+            border: 1.5px solid var(--primary-main);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button__icon {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
