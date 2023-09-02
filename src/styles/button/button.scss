@@ -82,4 +82,33 @@
             align-items: center;
         }
     }
+
+    &.delete {
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        padding: 0 0.75em;
+        color: var(--error-main);
+        background: var(--error-alpha-main);
+        border: 1px solid var(--error-main);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            background: #ed62723c;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    &.category {
+        display: flex;
+        align-items: center;
+        padding: 0.12em 0.37em;
+        border-radius: 0.375rem;
+        background: var(--primary-alpha-main);
+        color: var(--primary-text);
+        font-size: 0.6875rem;
+        font-weight: 500;
+        line-height: 1rem;
+    }
 }
