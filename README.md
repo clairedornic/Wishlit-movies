@@ -32,5 +32,5 @@ The application should now be running locally on your machine. You can access it
 
 ## Feedback
 
-With more time, I would have liked to make progress on the tasks in this test. Specifically, I would have focused on completing the UI with careful attention to the interactions outlined in the Figma design. Additionally, I would have worked on the tasks related to the functional aspects of the application. I found the test to be very comprehensive, and I only wished I had more time to complete it.
+I found the test to be very comprehensive and interesting, and I only wished I had more time to complete it.
 
