@@ -4,18 +4,14 @@ import ViewChoice from './ViewChoice'
 import Button from '../Button'
 import Categories from './Categories'
 
-interface HeaderProps {
-  onSearch: (query: string) => void;
-}
-
-const Header: React.FC<HeaderProps> = ({onSearch}) => {
+const Header = () => {
 
   return (
     <header className='header'>
         <div className='header__actions'>
             <h1 className='header__title'>Wishlist</h1>
             <div className='header__actions-container'>
-                <SearchBar onSearch={onSearch} />
+                <SearchBar />
                 <Button icon="" label="Add a movie" styleType="primary" />
                 <ViewChoice className='header__toggle-view'></ViewChoice>
             </div>

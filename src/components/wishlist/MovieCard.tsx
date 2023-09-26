@@ -1,9 +1,7 @@
 import React from 'react'
-import { Movie } from '../../types/Movie';
 import Button from '../Button';
 
 interface MovieCardProps {
-  key: number;
   movie: Movie;
 }
 
@@ -23,7 +21,7 @@ const MovieCard: React.FC<MovieCardProps> = ({movie}) => {
         <p className='movie__card-title'>{movie.title}</p>
         <div className='movie__card-categories'>
           {movie.categories.map((category, index) => (
-            <Button key={index} label={category} icon="" styleType="category" />
+            <Button key={category + index} label={category} icon="" styleType="category" />
           ))}
         </div>
         

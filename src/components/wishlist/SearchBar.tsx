@@ -1,19 +1,21 @@
 import React, { useState } from 'react'
 import iconSearch from '../../assets/icons/icon-search.svg'
+import useStoreWishlist from '../wishlist/wishlist.store'
 
-interface SearchBarProps {
-    onSearch: (query: string) => void;
-}
-
-const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
-    
+const SearchBar = () => {
+    const { initialMovies, movies, setMovies, filterMovies } = useStoreWishlist();
     const [query, setQuery] = useState('');
-    
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const newQuery = e.target.value;
-        setQuery(newQuery);
-        onSearch(newQuery);
-    };
+
+    const performSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const inputValue = e.target.value;
+        setQuery(inputValue);
+
+        if (inputValue === '') {
+            setMovies(initialMovies);
+        } else {
+            filterMovies(inputValue);
+        }
+      };
 
   return (
     <form className='search-bar'>
@@ -21,7 +23,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
             type="text"
             placeholder=""
             value={query}
-            onChange={handleInputChange}
+            onChange={performSearch}
             className='search-bar__input'
         />
         <img 

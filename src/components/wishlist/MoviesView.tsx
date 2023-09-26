@@ -1,7 +1,6 @@
 import React from 'react'
 import HeaderMovies from './HeaderMovies'
 import GridView from './GridView';
-import { Movie } from '../../types/Movie';
 
 interface MoviesViewProps {
   movies: Movie[]
