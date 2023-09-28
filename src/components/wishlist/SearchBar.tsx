@@ -3,7 +3,7 @@ import iconSearch from '../../assets/icons/icon-search.svg'
 import useStoreWishlist from '../wishlist/wishlist.store'
 
 const SearchBar = () => {
-    const { initialMovies, movies, setMovies, filterMovies } = useStoreWishlist();
+    const { initialMovies, setMovies, filterByTitle } = useStoreWishlist();
     const [query, setQuery] = useState('');
 
     const performSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -13,7 +13,7 @@ const SearchBar = () => {
         if (inputValue === '') {
             setMovies(initialMovies);
         } else {
-            filterMovies(inputValue);
+            filterByTitle(inputValue);
         }
       };
 
