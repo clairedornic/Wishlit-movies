@@ -1,5 +1,5 @@
-# Technical test - Source paris - Movies app
-This repository contains the code for a React application created with Create React App, written in TypeScript. The purpose of this application is to complete a technical test provided by Source Paris within a time frame of 3 hours. I worked on in for 3 hours and 30 minutes. My focus was on delivering a high-quality solution rather than rushing through the tasks.
+# Wishlist movies app
+This repository contains the code for a React application created with Create React App, written in TypeScript. The purpose of this application is to find and add movies to your wishlist.
 
 ## Project Structure
 
@@ -28,9 +28,3 @@ To run this project locally, follow these steps:
 ```
 
 The application should now be running locally on your machine. You can access it in your web browser by opening http://localhost:3000.
-
-
-## Feedback
-
-I found the test to be very comprehensive and interesting, and I only wished I had more time to complete it.
-
