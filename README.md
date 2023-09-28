@@ -1,5 +1,5 @@
-# Technical test - Movies app
-This repository contains the code for a React application created with Create React App, written in TypeScript. The purpose of this application is to complete a technical test provided by Source Paris within a time frame of 3 hours. I worked on in for 6 hours. My focus was on delivering a high-quality solution rather than rushing through the tasks.
+# Wishlist movies app
+This repository contains the code for a React application created with Create React App, written in TypeScript. The purpose of this application is to find and add movies to your wishlist.
 
 ## Project Structure
 
